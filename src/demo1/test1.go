@@ -4,6 +4,8 @@ import (
 	"fmt"
 )
 
+var name string
+
 func main() {
-	fmt.Println("hello,world!")
+	fmt.Println("hello ,%s!",name)
 }
